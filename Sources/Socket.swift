@@ -433,6 +433,10 @@ extension SwiftyZeroMQ {
             return try self.getValueOption(ZMQ_BACKLOG)
         }
 
+        public func getFileDescriptor() throws -> UInt32 {
+            return try self.getValueOption(ZMQ_FD)
+        }
+        
         // TODO Move this to helper functions
         private static func pointerTo<T>(_ value: T) -> UnsafeRawPointer {
             var mutableValue = value
