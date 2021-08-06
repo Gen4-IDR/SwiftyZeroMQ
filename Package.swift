@@ -17,7 +17,7 @@ let package = Package(
   targets: [
     .binaryTarget(
         name: "SwiftyZeroMQ",
-        url: "SwiftyZeroMQ.xcframework"
+        path: "SwiftyZeroMQ.xcframework"
     )
   ]
 )
