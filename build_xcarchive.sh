@@ -1,6 +1,6 @@
 set -e
 [ -e SwiftyZeroMQ.xcframework ] && rm -r SwiftyZeroMQ.xcframework
-xcodebuild archive -scheme SwiftyZeroMQ-iOS -sdk iphonesimulator ARCHS=i386 ONLY_ACTIVE_ARCH=NO -archivePath SwiftyZeroMQ-iOS-iphonesimulator.xcarchive SKIP_INSTALL=NO
+xcodebuild archive -scheme SwiftyZeroMQ-iOS -sdk iphonesimulator -archivePath SwiftyZeroMQ-iOS-iphonesimulator.xcarchive SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64"
 xcodebuild archive -scheme SwiftyZeroMQ-iOS -sdk iphoneos -archivePath SwiftyZeroMQ-iOS-iphoneos.xcarchive SKIP_INSTALL=NO
 xcodebuild archive -scheme SwiftyZeroMQ-macOS -sdk macosx -archivePath SwiftyZeroMQ-macOS-macosx.xcarchive SKIP_INSTALL=NO
 xcodebuild -create-xcframework \
