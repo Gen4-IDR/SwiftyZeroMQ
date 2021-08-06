@@ -18,11 +18,12 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-armv7</string>
+			<string>ios-arm64_armv7</string>
 			<key>LibraryPath</key>
 			<string>SwiftyZeroMQ.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
+				<string>arm64</string>
 				<string>armv7</string>
 			</array>
 			<key>SupportedPlatform</key>
@@ -30,13 +31,12 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-i386_x86_64-simulator</string>
+			<string>ios-i386-simulator</string>
 			<key>LibraryPath</key>
 			<string>SwiftyZeroMQ.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>i386</string>
-				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
