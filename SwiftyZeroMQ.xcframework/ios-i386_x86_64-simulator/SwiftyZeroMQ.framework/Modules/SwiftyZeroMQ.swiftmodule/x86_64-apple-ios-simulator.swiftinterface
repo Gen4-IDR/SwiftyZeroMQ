@@ -118,6 +118,7 @@ extension SwiftyZeroMQ {
     public func send(data: Foundation.Data, options: SwiftyZeroMQ.SocketSendRecvOption = .none) throws
     public func sendMultipart(parts: Swift.Array<Foundation.Data>) throws
     public func recvMultipart() throws -> Swift.Array<Foundation.Data>
+    public func recv(bufferLength: Swift.Int = 256, options: SwiftyZeroMQ.SocketSendRecvOption = .none) throws -> Foundation.Data
     public func recv(bufferLength: Swift.Int = 256, options: SwiftyZeroMQ.SocketSendRecvOption = .none) throws -> Swift.String?
     public var hashValue: Swift.Int {
       get

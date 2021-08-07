@@ -26,51 +26,51 @@
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nCBJwp0qWpeWQB2HzIImoKXu7m4=
+		bXcPbdS1dSMgI4z3ny2oTUjs9MM=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IpacSasEl4IxujdWN/1mPzoFd4I=
+		SlBgVuT8BvSZVCtlvYc/OT3MO5c=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KN/iIm6h0T9Gk+Qw1XT5sSfr/ns=
+		ON2M9Fki8RYezbrk8HwcNWlDV5c=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftdoc</key>
 		<data>
-		nCBJwp0qWpeWQB2HzIImoKXu7m4=
+		bXcPbdS1dSMgI4z3ny2oTUjs9MM=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftinterface</key>
 		<data>
-		IpacSasEl4IxujdWN/1mPzoFd4I=
+		SlBgVuT8BvSZVCtlvYc/OT3MO5c=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftmodule</key>
 		<data>
-		KN/iIm6h0T9Gk+Qw1XT5sSfr/ns=
+		ON2M9Fki8RYezbrk8HwcNWlDV5c=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Memtp8Zv5pN+bqPffV7ZHJ0Y6RU=
+		z1YA8r5Ug1XIYIjTRjcMZcqTNWo=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qMhLooSBs9aXtrtosXvc79vSH1s=
+		mM1P6TZ00rsehNprIOF6dJqcXGM=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BN+YKqYvEX8RTMrenp8m7sSaYoE=
+		PhUqsA1JI1fq/QVet6wk+yj4PN8=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Memtp8Zv5pN+bqPffV7ZHJ0Y6RU=
+		z1YA8r5Ug1XIYIjTRjcMZcqTNWo=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		qMhLooSBs9aXtrtosXvc79vSH1s=
+		mM1P6TZ00rsehNprIOF6dJqcXGM=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		BN+YKqYvEX8RTMrenp8m7sSaYoE=
+		PhUqsA1JI1fq/QVet6wk+yj4PN8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,132 +131,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nCBJwp0qWpeWQB2HzIImoKXu7m4=
+			bXcPbdS1dSMgI4z3ny2oTUjs9MM=
 			</data>
 			<key>hash2</key>
 			<data>
-			l3Bsnn9qUF/d0H0+UdLCEnDwSr4CYfK5vcby0BdQBw4=
+			Dt5NR6lqbyv0k1jc2Og+kdtpXlTQud5FTYezre52Ftg=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IpacSasEl4IxujdWN/1mPzoFd4I=
+			SlBgVuT8BvSZVCtlvYc/OT3MO5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kqaFXKXtbqdfIgMT3wT4UkCOG6k1yHMIfstP3IrJia8=
+			IzpgmgRP9Ioiswz77Jjt0UP18iRuxpa0qdjUMLe0Dpo=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KN/iIm6h0T9Gk+Qw1XT5sSfr/ns=
+			ON2M9Fki8RYezbrk8HwcNWlDV5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			gDXLELpefvTy5PXMJQeecNlpc1/pnAl49etA38wU47w=
+			W2n0waNN3TC7Y8N8A12+6TpxM0hWB1hU76q/jpGJ42Y=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nCBJwp0qWpeWQB2HzIImoKXu7m4=
+			bXcPbdS1dSMgI4z3ny2oTUjs9MM=
 			</data>
 			<key>hash2</key>
 			<data>
-			l3Bsnn9qUF/d0H0+UdLCEnDwSr4CYfK5vcby0BdQBw4=
+			Dt5NR6lqbyv0k1jc2Og+kdtpXlTQud5FTYezre52Ftg=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IpacSasEl4IxujdWN/1mPzoFd4I=
+			SlBgVuT8BvSZVCtlvYc/OT3MO5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kqaFXKXtbqdfIgMT3wT4UkCOG6k1yHMIfstP3IrJia8=
+			IzpgmgRP9Ioiswz77Jjt0UP18iRuxpa0qdjUMLe0Dpo=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KN/iIm6h0T9Gk+Qw1XT5sSfr/ns=
+			ON2M9Fki8RYezbrk8HwcNWlDV5c=
 			</data>
 			<key>hash2</key>
 			<data>
-			gDXLELpefvTy5PXMJQeecNlpc1/pnAl49etA38wU47w=
+			W2n0waNN3TC7Y8N8A12+6TpxM0hWB1hU76q/jpGJ42Y=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Memtp8Zv5pN+bqPffV7ZHJ0Y6RU=
+			z1YA8r5Ug1XIYIjTRjcMZcqTNWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			dSzztrZGYwhTlcG7/Ybg72SsDIVGdIUHUgieY5/s/Es=
+			BQNE04LJhvgcUI4wo9EE8rjTgnI0xRjsvKPDTDDLJFA=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qMhLooSBs9aXtrtosXvc79vSH1s=
+			mM1P6TZ00rsehNprIOF6dJqcXGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			irIAIO1iIUowK03k81UgGxsj9QGKm8fEasJwnLTGBDc=
+			nzPkTv9eDkyMSWrOeqtS8ks46P95QB/r2khl68fNYIs=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BN+YKqYvEX8RTMrenp8m7sSaYoE=
+			PhUqsA1JI1fq/QVet6wk+yj4PN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			r3W4GTrXrBsXCj+l+DB2ajKdv0nYwQ2wlx3R8akgZjc=
+			68GOsyJIpBUHMSx2jd0UVhkOFa66dZis5B2a+hV6mKA=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Memtp8Zv5pN+bqPffV7ZHJ0Y6RU=
+			z1YA8r5Ug1XIYIjTRjcMZcqTNWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			dSzztrZGYwhTlcG7/Ybg72SsDIVGdIUHUgieY5/s/Es=
+			BQNE04LJhvgcUI4wo9EE8rjTgnI0xRjsvKPDTDDLJFA=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qMhLooSBs9aXtrtosXvc79vSH1s=
+			mM1P6TZ00rsehNprIOF6dJqcXGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			irIAIO1iIUowK03k81UgGxsj9QGKm8fEasJwnLTGBDc=
+			nzPkTv9eDkyMSWrOeqtS8ks46P95QB/r2khl68fNYIs=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BN+YKqYvEX8RTMrenp8m7sSaYoE=
+			PhUqsA1JI1fq/QVet6wk+yj4PN8=
 			</data>
 			<key>hash2</key>
 			<data>
-			r3W4GTrXrBsXCj+l+DB2ajKdv0nYwQ2wlx3R8akgZjc=
+			68GOsyJIpBUHMSx2jd0UVhkOFa66dZis5B2a+hV6mKA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

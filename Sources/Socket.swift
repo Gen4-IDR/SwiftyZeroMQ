@@ -158,7 +158,7 @@ extension SwiftyZeroMQ {
         public func recv(
             bufferLength : Int = 256,
             options      : SocketSendRecvOption = .none
-        ) throws -> String? {
+        ) throws -> Data {
             // Validate allowed options
             guard options.isValidRecvOption() else {
                 throw ZeroMQError.invalidOption
@@ -180,10 +180,14 @@ extension SwiftyZeroMQ {
             }
 
             // Limit string buffer to actual buffer size
-            let data = Data(bytes: buffer, count: Int(bufferSize))
-
-            // Return read UTF8 string
-            return String(data: data, encoding: String.Encoding.utf8)
+            return Data(bytes: buffer, count: Int(bufferSize))
+        }
+      
+        public func recv(
+          bufferLength : Int = 256,
+          options      : SocketSendRecvOption = .none
+        ) throws -> String? {
+          return String(data: try recv(bufferLength: bufferLength, options: options), encoding: String.Encoding.utf8)
         }
 
         /**
