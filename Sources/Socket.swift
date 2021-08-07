@@ -152,10 +152,7 @@ extension SwiftyZeroMQ {
             return parts
         }
         
-        /**
-            Receive a message part from the current socket
-         */
-        public func recv(
+        public func recvData(
             bufferLength : Int = 256,
             options      : SocketSendRecvOption = .none
         ) throws -> Data {
@@ -183,11 +180,14 @@ extension SwiftyZeroMQ {
             return Data(bytes: buffer, count: Int(bufferSize))
         }
       
+        /**
+           Receive a message part from the current socket
+        */
         public func recv(
           bufferLength : Int = 256,
           options      : SocketSendRecvOption = .none
         ) throws -> String? {
-          return String(data: try recv(bufferLength: bufferLength, options: options), encoding: String.Encoding.utf8)
+          return String(data: try recvData(bufferLength: bufferLength, options: options), encoding: String.Encoding.utf8)
         }
 
         /**
