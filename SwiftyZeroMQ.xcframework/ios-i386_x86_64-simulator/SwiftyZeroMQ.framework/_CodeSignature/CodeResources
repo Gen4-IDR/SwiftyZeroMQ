@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hD2EriKtfYpcgarOBSdZeZXLrLc=
+		fhB+bVkFadgiOrzqhQyOInnCAQ8=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AQXb8yVabNeDMIkzdKqdThhwF90=
+		fr3STRzDhhhUieH0bT+T3umWGRM=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftinterface</key>
 		<data>
-		hD2EriKtfYpcgarOBSdZeZXLrLc=
+		fhB+bVkFadgiOrzqhQyOInnCAQ8=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftmodule</key>
 		<data>
-		AQXb8yVabNeDMIkzdKqdThhwF90=
+		fr3STRzDhhhUieH0bT+T3umWGRM=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		I0xba7uKIUG4qvd5uoJ8YFWk/L8=
+		9ZUDNSzKbH+0ByDXIEn80XT25aE=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l3N4izCSGiYNBN3IMczgRSkjimo=
+		8idun+y98LzO2HgkMb+oKNLIH8s=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		I0xba7uKIUG4qvd5uoJ8YFWk/L8=
+		9ZUDNSzKbH+0ByDXIEn80XT25aE=
 		</data>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		l3N4izCSGiYNBN3IMczgRSkjimo=
+		8idun+y98LzO2HgkMb+oKNLIH8s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,22 +142,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hD2EriKtfYpcgarOBSdZeZXLrLc=
+			fhB+bVkFadgiOrzqhQyOInnCAQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vCYqOXfRNDSseAepAqGEewuP8XgqzWiQIcOVvaGpbLM=
+			sKOVOjDyQg18lRyON+sls1IK8Lu3dVUmS4x3TPw2VeU=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AQXb8yVabNeDMIkzdKqdThhwF90=
+			fr3STRzDhhhUieH0bT+T3umWGRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			aijte/r78iVYbAW78qITcKou+RNUQf5MWz2ozo5quqs=
+			XnsJHlEy2vzE3nuTwHTLplntOxLlsWDXRGd7kFDGtEM=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftdoc</key>
@@ -175,22 +175,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hD2EriKtfYpcgarOBSdZeZXLrLc=
+			fhB+bVkFadgiOrzqhQyOInnCAQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vCYqOXfRNDSseAepAqGEewuP8XgqzWiQIcOVvaGpbLM=
+			sKOVOjDyQg18lRyON+sls1IK8Lu3dVUmS4x3TPw2VeU=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AQXb8yVabNeDMIkzdKqdThhwF90=
+			fr3STRzDhhhUieH0bT+T3umWGRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			aijte/r78iVYbAW78qITcKou+RNUQf5MWz2ozo5quqs=
+			XnsJHlEy2vzE3nuTwHTLplntOxLlsWDXRGd7kFDGtEM=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -208,22 +208,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I0xba7uKIUG4qvd5uoJ8YFWk/L8=
+			9ZUDNSzKbH+0ByDXIEn80XT25aE=
 			</data>
 			<key>hash2</key>
 			<data>
-			viatAw7zyDoFfymmNdcoJeEtXJijUTXXd/R5cob1hDI=
+			j6Cu5yW3kY9GcdPT284+u0HVGa5pvhH7TLbU9p8rNQ0=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l3N4izCSGiYNBN3IMczgRSkjimo=
+			8idun+y98LzO2HgkMb+oKNLIH8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			c/ylpTO+sP1Rp6zic3uBR6MEeCsP7bRR2Fyqiey+0sQ=
+			VB8HcQ/curqu4bCoOxgvsJa6QV/9b/OGOF34ZeNUrds=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftdoc</key>
@@ -241,22 +241,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I0xba7uKIUG4qvd5uoJ8YFWk/L8=
+			9ZUDNSzKbH+0ByDXIEn80XT25aE=
 			</data>
 			<key>hash2</key>
 			<data>
-			viatAw7zyDoFfymmNdcoJeEtXJijUTXXd/R5cob1hDI=
+			j6Cu5yW3kY9GcdPT284+u0HVGa5pvhH7TLbU9p8rNQ0=
 			</data>
 		</dict>
 		<key>Modules/SwiftyZeroMQ.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l3N4izCSGiYNBN3IMczgRSkjimo=
+			8idun+y98LzO2HgkMb+oKNLIH8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			c/ylpTO+sP1Rp6zic3uBR6MEeCsP7bRR2Fyqiey+0sQ=
+			VB8HcQ/curqu4bCoOxgvsJa6QV/9b/OGOF34ZeNUrds=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

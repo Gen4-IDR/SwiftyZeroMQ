@@ -5,7 +5,7 @@ import Foundation
 import Swift
 @_exported import SwiftyZeroMQ
 extension SwiftyZeroMQ {
-  public class Context : Swift.Hashable {
+  open class Context : Swift.Hashable {
     public var handle: Swift.UnsafeMutableRawPointer?
     public init() throws
     @objc deinit
@@ -30,7 +30,7 @@ extension SwiftyZeroMQ {
       get
     }
     public static func == (lhs: SwiftyZeroMQ.Context, rhs: SwiftyZeroMQ.Context) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
+    open func hash(into hasher: inout Swift.Hasher)
   }
 }
 extension SwiftyZeroMQ {
@@ -55,7 +55,7 @@ extension SwiftyZeroMQ {
   }
 }
 extension SwiftyZeroMQ {
-  public class Socket : Swift.Hashable {
+  open class Socket : Swift.Hashable {
     public var handle: Swift.UnsafeMutableRawPointer?
     public init(context: SwiftyZeroMQ.Context, type: SwiftyZeroMQ.SocketType) throws
     @objc deinit
@@ -103,7 +103,7 @@ extension SwiftyZeroMQ {
     public func setIntegerSocketOption(_ option: Swift.Int32, _ value: Swift.Int32) throws
     public func setUnsignedIntegerSocketOption(_ option: Swift.Int32, _ value: Swift.UInt64) throws
     public func setStringSocketOption(_ option: Swift.Int32, _ value: Swift.String?) throws
-    public func hash(into hasher: inout Swift.Hasher)
+    open func hash(into hasher: inout Swift.Hasher)
   }
 }
 extension SwiftyZeroMQ {

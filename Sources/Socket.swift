@@ -12,7 +12,7 @@ extension SwiftyZeroMQ {
     /**
         This represents a ZeroMQ socket that is associated with a context
      */
-    public class Socket : Hashable {
+    open class Socket : Hashable {
         /**
             This is the low-level socket pointer handle. Please be extra careful
             while using this one otherwise crashes and memory leaks may occur.

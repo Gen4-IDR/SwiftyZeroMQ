@@ -10,7 +10,7 @@ extension SwiftyZeroMQ {
     /**
         This represents a ZeroMQ context
      */
-    public class Context: Hashable {
+  open class Context: Hashable {
         /**
             This is the low-level context pointer handle. Please be extra
             careful while using this one otherwise crashes and memory leaks may
