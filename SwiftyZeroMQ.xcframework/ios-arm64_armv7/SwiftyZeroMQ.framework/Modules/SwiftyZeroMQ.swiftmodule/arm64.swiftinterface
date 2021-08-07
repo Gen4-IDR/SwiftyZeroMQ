@@ -7,7 +7,7 @@ import Swift
 extension SwiftyZeroMQ {
   open class Context : Swift.Hashable {
     public var handle: Swift.UnsafeMutableRawPointer?
-    public init() throws
+    required public init() throws
     @objc deinit
     public func shutdown() throws
     public func terminate() throws

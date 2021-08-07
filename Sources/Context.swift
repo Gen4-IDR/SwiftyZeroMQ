@@ -29,7 +29,7 @@ extension SwiftyZeroMQ {
 
             - throws: ZeroMQError
          */
-        public init() throws {
+        public required init() throws {
             let contextHandle = zmq_ctx_new()
             if contextHandle == nil {
                 throw ZeroMQError.last
