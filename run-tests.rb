@@ -25,7 +25,7 @@ def run_tests(scheme, sdk, destination, action='test')
     test_options = (action == 'test') ? "ENABLE_TESTABILITY=YES" : ""
     command = [
       "set -o pipefail && xcodebuild",
-      "-project SwiftyZeroMQ.xcodeproj",
+      "-project SwiftyZeroMQKit.xcodeproj",
       "-scheme #{scheme}",
       "-sdk #{sdk}",
       "-destination '#{destination}'",
@@ -53,24 +53,24 @@ if which("xcpretty") == nil then
 end
 
 # Run iOS tests
-scheme = 'SwiftyZeroMQ-iOS'
+scheme = 'SwiftyZeroMQKit-iOS'
 sdk    = 'iphonesimulator10.3'
 run_tests(scheme, sdk, 'platform=iOS Simulator,name=iPhone SE,OS=9.0')
 run_tests(scheme, sdk, 'platform=iOS Simulator,name=iPhone SE,OS=10.2')
 
 # Run macOS tests
-scheme = 'SwiftyZeroMQ-macOS'
+scheme = 'SwiftyZeroMQKit-macOS'
 sdk    = 'macosx10.12'
 run_tests(scheme, sdk, 'arch=x86_64')
 
 # Run tvOS tests
-scheme = 'SwiftyZeroMQ-tvOS'
+scheme = 'SwiftyZeroMQKit-tvOS'
 sdk    = 'appletvsimulator10.2'
 run_tests(scheme, sdk, 'OS=9.0,name=Apple TV 1080p')
 run_tests(scheme, sdk, 'OS=10.1,name=Apple TV 1080p')
 
 # Only build watchOS since it does not support testing at the moment
-scheme = 'SwiftyZeroMQ-watchOS'
+scheme = 'SwiftyZeroMQKit-watchOS'
 sdk    = 'watchsimulator3.2'
 run_tests(scheme, sdk, 'OS=2.2,name=Apple Watch - 42mm', 'build')
 run_tests(scheme, sdk, 'OS=3.1,name=Apple Watch - 42mm', 'build')

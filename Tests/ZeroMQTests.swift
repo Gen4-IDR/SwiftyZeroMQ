@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import SwiftyZeroMQ
+@testable import SwiftyZeroMQKit
 
 class ZeroMQTests: XCTestCase {
 

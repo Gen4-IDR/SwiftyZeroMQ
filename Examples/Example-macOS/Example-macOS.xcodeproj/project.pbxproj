@@ -11,8 +11,8 @@
 		04880E501DCA244200F571A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04880E4F1DCA244200F571A0 /* ViewController.swift */; };
 		04880E521DCA244200F571A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04880E511DCA244200F571A0 /* Assets.xcassets */; };
 		04880E551DCA244500F571A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04880E531DCA244500F571A0 /* Main.storyboard */; };
-		04880E821DCA252A00F571A0 /* SwiftyZeroMQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04880E7F1DCA251400F571A0 /* SwiftyZeroMQ.framework */; };
-		04880E831DCA252A00F571A0 /* SwiftyZeroMQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04880E7F1DCA251400F571A0 /* SwiftyZeroMQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04880E821DCA252A00F571A0 /* SwiftyZeroMQKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04880E7F1DCA251400F571A0 /* SwiftyZeroMQKit.framework */; };
+		04880E831DCA252A00F571A0 /* SwiftyZeroMQKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04880E7F1DCA251400F571A0 /* SwiftyZeroMQKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,59 +25,59 @@
 		};
 		04880E741DCA251400F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 04D84E331DB637E800AD9652;
-			remoteInfo = "SwiftyZeroMQ-iOS";
+			remoteInfo = "SwiftyZeroMQKit-iOS";
 		};
 		04880E761DCA251400F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 04D84E3C1DB637E800AD9652;
-			remoteInfo = "SwiftyZeroMQ-iOS Tests";
+			remoteInfo = "SwiftyZeroMQKit-iOS Tests";
 		};
 		04880E781DCA251400F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 04AA85651DC9E1390026AE5E;
-			remoteInfo = "SwiftyZeroMQ-watchOS";
+			remoteInfo = "SwiftyZeroMQKit-watchOS";
 		};
 		04880E7A1DCA251400F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 04AA857F1DC9E5770026AE5E;
-			remoteInfo = "SwiftyZeroMQ-tvOS";
+			remoteInfo = "SwiftyZeroMQKit-tvOS";
 		};
 		04880E7C1DCA251400F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 04AA85871DC9E5780026AE5E;
-			remoteInfo = "SwiftyZeroMQ-tvOSTests";
+			remoteInfo = "SwiftyZeroMQKit-tvOSTests";
 		};
 		04880E7E1DCA251400F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 04AA85E01DC9EF0E0026AE5E;
-			remoteInfo = "SwiftyZeroMQ-macOS";
+			remoteInfo = "SwiftyZeroMQKit-macOS";
 		};
 		04880E801DCA251400F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 04AA85E81DC9EF0E0026AE5E;
-			remoteInfo = "SwiftyZeroMQ-macOSTests";
+			remoteInfo = "SwiftyZeroMQKit-macOSTests";
 		};
 		04880E841DCA252A00F571A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+			containerPortal = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 04AA85DF1DC9EF0E0026AE5E;
-			remoteInfo = "SwiftyZeroMQ-macOS";
+			remoteInfo = "SwiftyZeroMQKit-macOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -88,7 +88,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04880E831DCA252A00F571A0 /* SwiftyZeroMQ.framework in Embed Frameworks */,
+				04880E831DCA252A00F571A0 /* SwiftyZeroMQKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,7 +103,7 @@
 		04880E541DCA244500F571A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04880E561DCA244600F571A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04880E5B1DCA244600F571A0 /* Example-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyZeroMQ.xcodeproj; path = ../../SwiftyZeroMQ.xcodeproj; sourceTree = "<group>"; };
+		04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyZeroMQKit.xcodeproj; path = ../../SwiftyZeroMQKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04880E821DCA252A00F571A0 /* SwiftyZeroMQ.framework in Frameworks */,
+				04880E821DCA252A00F571A0 /* SwiftyZeroMQKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			children = (
 				04880E4C1DCA244200F571A0 /* Example-macOS */,
 				04880E4B1DCA244200F571A0 /* Products */,
-				04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */,
+				04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,13 +158,13 @@
 		04880E6B1DCA251400F571A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04880E751DCA251400F571A0 /* SwiftyZeroMQ.framework */,
-				04880E771DCA251400F571A0 /* SwiftyZeroMQ-iOS Tests.xctest */,
-				04880E7F1DCA251400F571A0 /* SwiftyZeroMQ.framework */,
-				04880E811DCA251400F571A0 /* SwiftyZeroMQ-macOSTests.xctest */,
-				04880E7B1DCA251400F571A0 /* SwiftyZeroMQ.framework */,
-				04880E7D1DCA251400F571A0 /* SwiftyZeroMQ-tvOSTests.xctest */,
-				04880E791DCA251400F571A0 /* SwiftyZeroMQ.framework */,
+				04880E751DCA251400F571A0 /* SwiftyZeroMQKit.framework */,
+				04880E771DCA251400F571A0 /* SwiftyZeroMQKit-iOS Tests.xctest */,
+				04880E7F1DCA251400F571A0 /* SwiftyZeroMQKit.framework */,
+				04880E811DCA251400F571A0 /* SwiftyZeroMQKit-macOSTests.xctest */,
+				04880E7B1DCA251400F571A0 /* SwiftyZeroMQKit.framework */,
+				04880E7D1DCA251400F571A0 /* SwiftyZeroMQKit-tvOSTests.xctest */,
+				04880E791DCA251400F571A0 /* SwiftyZeroMQKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			projectReferences = (
 				{
 					ProductGroup = 04880E6B1DCA251400F571A0 /* Products */;
-					ProjectRef = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQ.xcodeproj */;
+					ProjectRef = 04880E6A1DCA251400F571A0 /* SwiftyZeroMQKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -256,52 +256,52 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		04880E751DCA251400F571A0 /* SwiftyZeroMQ.framework */ = {
+		04880E751DCA251400F571A0 /* SwiftyZeroMQKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SwiftyZeroMQ.framework;
+			path = SwiftyZeroMQKit.framework;
 			remoteRef = 04880E741DCA251400F571A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		04880E771DCA251400F571A0 /* SwiftyZeroMQ-iOS Tests.xctest */ = {
+		04880E771DCA251400F571A0 /* SwiftyZeroMQKit-iOS Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "SwiftyZeroMQ-iOS Tests.xctest";
+			path = "SwiftyZeroMQKit-iOS Tests.xctest";
 			remoteRef = 04880E761DCA251400F571A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		04880E791DCA251400F571A0 /* SwiftyZeroMQ.framework */ = {
+		04880E791DCA251400F571A0 /* SwiftyZeroMQKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SwiftyZeroMQ.framework;
+			path = SwiftyZeroMQKit.framework;
 			remoteRef = 04880E781DCA251400F571A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		04880E7B1DCA251400F571A0 /* SwiftyZeroMQ.framework */ = {
+		04880E7B1DCA251400F571A0 /* SwiftyZeroMQKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SwiftyZeroMQ.framework;
+			path = SwiftyZeroMQKit.framework;
 			remoteRef = 04880E7A1DCA251400F571A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		04880E7D1DCA251400F571A0 /* SwiftyZeroMQ-tvOSTests.xctest */ = {
+		04880E7D1DCA251400F571A0 /* SwiftyZeroMQKit-tvOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "SwiftyZeroMQ-tvOSTests.xctest";
+			path = "SwiftyZeroMQKit-tvOSTests.xctest";
 			remoteRef = 04880E7C1DCA251400F571A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		04880E7F1DCA251400F571A0 /* SwiftyZeroMQ.framework */ = {
+		04880E7F1DCA251400F571A0 /* SwiftyZeroMQKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SwiftyZeroMQ.framework;
+			path = SwiftyZeroMQKit.framework;
 			remoteRef = 04880E7E1DCA251400F571A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		04880E811DCA251400F571A0 /* SwiftyZeroMQ-macOSTests.xctest */ = {
+		04880E811DCA251400F571A0 /* SwiftyZeroMQKit-macOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "SwiftyZeroMQ-macOSTests.xctest";
+			path = "SwiftyZeroMQKit-macOSTests.xctest";
 			remoteRef = 04880E801DCA251400F571A0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -353,7 +353,7 @@
 		};
 		04880E851DCA252A00F571A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "SwiftyZeroMQ-macOS";
+			name = "SwiftyZeroMQKit-macOS";
 			targetProxy = 04880E841DCA252A00F571A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */

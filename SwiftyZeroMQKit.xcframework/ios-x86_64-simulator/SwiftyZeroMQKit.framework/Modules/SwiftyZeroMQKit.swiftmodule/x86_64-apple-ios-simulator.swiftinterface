@@ -1,0 +1,193 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftyZeroMQKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import SwiftyZeroMQKit
+import _Concurrency
+import _StringProcessing
+extension SwiftyZeroMQ {
+  open class Context : Hashable {
+    public var handle: UnsafeMutableRawPointer?
+    required public init() throws
+    @objc deinit
+    public func shutdown() throws
+    public func terminate() throws
+    public func close() throws
+    public func socket(_ type: SwiftyZeroMQ.SocketType) throws -> Socket
+    public func isBlocky() throws -> Bool
+    public func setBlocky(_ enabled: Bool = true) throws
+    public func getIOThreads() throws -> Int
+    public func setIOThreads(_ value: Int = 1) throws
+    public func setThreadSchedulingPolicy(_ value: Int = -1) throws
+    public func setThreadPriority(_ value: Int = -1) throws
+    public func getMaxMessageSize() throws -> Int
+    public func setMaxMessageSize(_ size: Int = Int(Int32.max)) throws
+    public func getMaxSockets() throws -> Int
+    public func setMaxSockets(_ value: Int = 1024) throws
+    public func isIPV6Enabled() throws -> Bool
+    public func setIPV6Enabled(_ enabled: Bool = false) throws
+    public func getSocketLimit() throws -> Int
+    public var hashValue: Int {
+      get
+    }
+    public static func == (lhs: Context, rhs: Context) -> Bool
+    open func hash(into hasher: inout Swift.Hasher)
+  }
+}
+public struct SwiftyZeroMQ {
+  public enum Capability : String {
+    case ipc
+    case pgm
+    case tipc
+    case norm
+    case curve
+    case gssapi
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public static var version: (major: Int, minor: Int, patch: Int, versionString: String) {
+    get
+  }
+  public static var frameworkVersion: String {
+    get
+  }
+  public static func has(_ capability: Capability) -> Bool
+  public static func proxy(frontend: SwiftyZeroMQ.Socket, backend: SwiftyZeroMQ.Socket, capture: SwiftyZeroMQ.Socket? = nil) throws
+}
+extension SwiftyZeroMQ {
+  public enum SocketSendRecvOption : Int32 {
+    case none
+    case dontWait
+    case sendMore
+    case dontWaitSendMore
+    public var rawValue: Int32 {
+      get
+    }
+    public func isValidRecvOption() -> Bool
+    public init?(rawValue: Swift.Int32)
+    public typealias RawValue = Swift.Int32
+  }
+}
+extension SwiftyZeroMQ {
+  public struct PollFlags : OptionSet {
+    public var rawValue: Int32
+    public init(rawValue: Int32)
+    public static let pollIn: SwiftyZeroMQKit.SwiftyZeroMQ.PollFlags
+    public static let pollOut: SwiftyZeroMQKit.SwiftyZeroMQ.PollFlags
+    public static let pollErr: SwiftyZeroMQKit.SwiftyZeroMQ.PollFlags
+    public static let none: PollFlags
+    public typealias ArrayLiteralElement = SwiftyZeroMQKit.SwiftyZeroMQ.PollFlags
+    public typealias Element = SwiftyZeroMQKit.SwiftyZeroMQ.PollFlags
+    public typealias RawValue = Swift.Int32
+  }
+  public class Poller {
+    public init()
+    public func register(socket: Socket, flags: PollFlags = [.pollIn, .pollOut]) throws
+    public func modify(socket: Socket, flags: PollFlags = [.pollIn, .pollOut]) throws
+    public func unregister(socket: Socket) throws
+    public func poll(timeout: TimeInterval? = nil) throws -> [Socket : PollFlags]
+    @objc deinit
+  }
+}
+extension SwiftyZeroMQ {
+  public struct ZeroMQError : Error, CustomStringConvertible {
+    public let description: String
+    public static var last: ZeroMQError {
+      get
+    }
+    public static var invalidOption: ZeroMQError {
+      get
+    }
+    public static var unimplemented: ZeroMQError {
+      get
+    }
+  }
+}
+extension SwiftyZeroMQ {
+  open class Socket : Hashable {
+    public var handle: UnsafeMutableRawPointer?
+    public init(context: Context, type: SocketType) throws
+    @objc deinit
+    public func connect(_ endpoint: String) throws
+    public func close() throws
+    public func bind(_ endpoint: String) throws
+    public func unbind(_ endpoint: String) throws
+    public func send(string: String, options: SocketSendRecvOption = .none) throws
+    public func send(data: Data, options: SocketSendRecvOption = .none) throws
+    public func sendMultipart(parts: Array<Data>) throws
+    public func recvMultipart() throws -> Array<Data>
+    public func recvData(bufferLength: Int = 256, options: SocketSendRecvOption = .none) throws -> Data
+    public func recv(bufferLength: Int = 256, options: SocketSendRecvOption = .none) throws -> String?
+    public var hashValue: Int {
+      get
+    }
+    public static func == (lhs: Socket, rhs: Socket) -> Bool
+    public func setSubscribe(_ value: String?) throws
+    public func setUnsubscribe(_ value: String?) throws
+    public func setAffinity(_ value: UInt64) throws
+    public func setLinger(_ value: Int32) throws
+    public func setRecvHighWaterMark(_ value: Int32) throws
+    public func setSendHighWaterMark(_ value: Int32) throws
+    public func setMulticastRate(_ value: Int32) throws
+    public func setMulticastRecoveryInterval(_ value: Int32) throws
+    public func setSendBufferSize(_ value: Int32) throws
+    public func setRecvBufferSize(_ value: Int32) throws
+    public func setReconnectInterval(_ value: Int32) throws
+    public func setMaxReconnectInterval(_ value: Int32) throws
+    public func curveKeyPair() throws -> (publicKey: String, secretKey: String)
+    public func setupCurveSecurityOnClientWithServerPublicKey(_ serverPublicKey: String, clientPublicKey: String, clientSecretKey: String) throws
+    public func setupCurveSecurityOnServerWithServerSecretKey(_ serverSecretKey: String, serverPublicKey: String) throws
+    public func setBacklog(_ value: Int32) throws
+    public func getAffinity() throws -> UInt64
+    public func getLinger() throws -> Int32
+    public func getRecvHighWaterMark() throws -> Int32
+    public func getSendHighWaterMark() throws -> UInt32
+    public func getMulticastRate() throws -> Int32
+    public func getMulticastRecoveryInterval() throws -> Int32
+    public func getSendBufferSize() throws -> UInt32
+    public func getRecvBufferSize() throws -> UInt32
+    public func getReconnectInterval() throws -> UInt32
+    public func getMaxReconnectInterval() throws -> UInt32
+    public func getBacklog() throws -> UInt32
+    public func getFileDescriptor() throws -> UInt32
+    public func setIntegerSocketOption(_ option: Int32, _ value: Int32) throws
+    public func setUnsignedIntegerSocketOption(_ option: Int32, _ value: UInt64) throws
+    public func setStringSocketOption(_ option: Int32, _ value: String?) throws
+    open func hash(into hasher: inout Swift.Hasher)
+  }
+}
+extension SwiftyZeroMQ {
+  public enum SocketType : Int32 {
+    case request
+    case reply
+    case dealer
+    case router
+    case publish
+    case subscribe
+    case xpublish
+    case xsubscribe
+    case push
+    case pull
+    case pair
+    case stream
+    public var rawValue: Int32 {
+      get
+    }
+    public init?(rawValue: Swift.Int32)
+    public typealias RawValue = Swift.Int32
+  }
+}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.Capability : Swift.Equatable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.Capability : Swift.Hashable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.Capability : Swift.RawRepresentable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.SocketSendRecvOption : Swift.Equatable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.SocketSendRecvOption : Swift.Hashable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.SocketSendRecvOption : Swift.RawRepresentable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.SocketType : Swift.Equatable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.SocketType : Swift.Hashable {}
+extension SwiftyZeroMQKit.SwiftyZeroMQ.SocketType : Swift.RawRepresentable {}

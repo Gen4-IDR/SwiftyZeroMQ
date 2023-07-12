@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-  name: "SwiftyZeroMQ",
+  name: "SwiftyZeroMQKit",
   products: [
     // Products define the executables and libraries a package produces, and make them visible to other packages.
     .library(
-      name: "SwiftyZeroMQ",
-      targets: ["SwiftyZeroMQ"]),
+      name: "SwiftyZeroMQKit",
+      targets: ["SwiftyZeroMQKit"]),
   ],
   dependencies: [
     
   ],
   targets: [
     .binaryTarget(
-        name: "SwiftyZeroMQ",
-        path: "SwiftyZeroMQ.xcframework"
+        name: "SwiftyZeroMQKit",
+        path: "SwiftyZeroMQKit.xcframework"
     )
   ]
 )

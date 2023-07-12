@@ -1,14 +1,14 @@
 set -e
-[ -e SwiftyZeroMQ.xcframework ] && rm -r SwiftyZeroMQ.xcframework
-xcodebuild archive -scheme SwiftyZeroMQ-iOS -sdk iphonesimulator -archivePath SwiftyZeroMQ-iOS-iphonesimulator.xcarchive SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64"
-xcodebuild archive -scheme SwiftyZeroMQ-iOS -sdk iphoneos -archivePath SwiftyZeroMQ-iOS-iphoneos.xcarchive SKIP_INSTALL=NO
-xcodebuild archive -scheme SwiftyZeroMQ-macOS -sdk macosx -archivePath SwiftyZeroMQ-macOS-macosx.xcarchive SKIP_INSTALL=NO
+[ -e SwiftyZeroMQKit.xcframework ] && rm -r SwiftyZeroMQKit.xcframework
+xcodebuild archive -scheme SwiftyZeroMQKit-iOS -sdk iphonesimulator -archivePath SwiftyZeroMQKit-iOS-iphonesimulator.xcarchive SKIP_INSTALL=NO ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64"
+xcodebuild archive -scheme SwiftyZeroMQKit-iOS -sdk iphoneos -archivePath SwiftyZeroMQKit-iOS-iphoneos.xcarchive SKIP_INSTALL=NO
+xcodebuild archive -scheme SwiftyZeroMQKit-macOS -sdk macosx -archivePath SwiftyZeroMQKit-macOS-macosx.xcarchive SKIP_INSTALL=NO
 xcodebuild -create-xcframework \
- -framework SwiftyZeroMQ-iOS-iphonesimulator.xcarchive/Products/Library/Frameworks/SwiftyZeroMQ.framework \
- -framework SwiftyZeroMQ-iOS-iphoneos.xcarchive/Products/Library/Frameworks/SwiftyZeroMQ.framework \
- -framework SwiftyZeroMQ-macos-macosx.xcarchive/Products/Library/Frameworks/SwiftyZeroMQ.framework \
- -output SwiftyZeroMQ.xcframework
-cd SwiftyZeroMQ.xcframework
+ -framework SwiftyZeroMQKit-iOS-iphonesimulator.xcarchive/Products/Library/Frameworks/SwiftyZeroMQKit.framework \
+ -framework SwiftyZeroMQKit-iOS-iphoneos.xcarchive/Products/Library/Frameworks/SwiftyZeroMQKit.framework \
+ -framework SwiftyZeroMQKit-macos-macosx.xcarchive/Products/Library/Frameworks/SwiftyZeroMQKit.framework \
+ -output SwiftyZeroMQKit.xcframework
+cd SwiftyZeroMQKit.xcframework
 # This works around a xcode bug where swiftinterface files are generated with types like 'SwiftyZeroMQ.SwiftyZeroMQ.Socket' instead of 'SwiftyZeroMQ.Socket'
-find . -name "*.swiftinterface" -exec sed -i -e 's/SwiftyZeroMQ\.SwiftyZeroMQ\./SwiftyZeroMQ\./g' {} \;
+#find . -name "*.swiftinterface" -exec sed -i.backup -e 's/SwiftyZeroMQ\.SwiftyZeroMQ\./SwiftyZeroMQ\./g' {} \;
 cd ..

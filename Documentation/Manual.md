@@ -28,9 +28,9 @@ documentation and examples in the sections below.
 * Download framework source code from [here](https://github.com/azawawi/SwiftyZeroMQ/releases/)
 * Drag the project into your project.
 * In your target's settings, please click on the **+** button under the
-**Embedded Binaries** section and add `SwiftyZeroMQ.framework`. In case it does
+**Embedded Binaries** section and add `SwiftyZeroMQKit.framework`. In case it does
 not show up in the list, please close and reopen the project in Xcode.
-* Add `import SwiftyZeroMQ` in your code to test it.
+* Add `import SwiftyZeroMQKit` in your code to test it.
 * Happy hacking :)
 
 ### CocoaPods
@@ -75,7 +75,7 @@ dependency manager for Cocoa. Please follow these steps:
 github "azawawi/SwiftyZeroMQ" ~> 1.0
 ```
 
-- Build the `SwiftyZeroMQ.framework` with the following commands:
+- Build the `SwiftyZeroMQKit.framework` with the following commands:
 ```
 $ carthage bootstrap --platform iOS  # Build only the iOS platform
 $ carthage bootstrap                 # Build all supported platforms (can be slow)
@@ -85,7 +85,7 @@ $ carthage bootstrap                 # Build all supported platforms (can be slo
 
 - In your target's settings, please click on the **+** button under the
 **Embedded Binaries** section and add
-`Carthage/Build/iOS/SwiftyZeroMQ.framework`
+`Carthage/Build/iOS/SwiftyZeroMQKit.framework`
 
 ### Swift Package Manager
 
@@ -131,7 +131,7 @@ Library|Minimum OS version|CPU Architectures
 To import this module, please type:
 
 ```swift
-import SwiftyZeroMQ
+import SwiftyZeroMQKit
 ```
 
 ## Low-level API

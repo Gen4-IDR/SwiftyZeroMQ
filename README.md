@@ -37,7 +37,7 @@ information. Older examples can also be found in the
 ### Version
 
 ```swift
-import SwiftyZeroMQ
+import SwiftyZeroMQKit
 
 // Print ZeroMQ library and our framework version
 let (major, minor, patch, versionString) = SwiftyZeroMQ.version
@@ -49,7 +49,7 @@ print("SwiftyZeroMQ version is \(SwiftyZeroMQ.frameworkVersion)")
 ### Request-reply Pattern
 
 ```swift
-import SwiftyZeroMQ
+import SwiftyZeroMQKit
 
 do {
     // Define a TCP endpoint along with the text that we are going to send/recv
@@ -151,7 +151,7 @@ try pollAndRecv();
 ### Poller
 
 ```swift
-import SwiftyZeroMQ
+import SwiftyZeroMQKit
 
 do {
     // Define a TCP endpoint along with the text that we are going to send/recv

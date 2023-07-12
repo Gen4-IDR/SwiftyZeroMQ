@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SwiftyZeroMQ
+import SwiftyZeroMQKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var versionTextView: UITextView!

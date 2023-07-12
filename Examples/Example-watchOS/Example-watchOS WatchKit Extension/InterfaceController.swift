@@ -7,7 +7,7 @@
 
 import WatchKit
 import Foundation
-import SwiftyZeroMQ
+import SwiftyZeroMQKit
 
 class InterfaceController: WKInterfaceController {
 
